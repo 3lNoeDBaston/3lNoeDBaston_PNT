@@ -1,0 +1,89 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(../Imagen/flor\ de\ loto.jpg);
+    background-size: cover;
+    color: rgb(19, 36, 31);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.userlogin {
+    background-color:rgba(229, 233, 241, 0);
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px solid rgb(156, 234,16);
+    margin-top: 10%;
+
+}
+
+.title{
+    font-size: 28px;
+    font-style: italic;
+    color: blue;
+}
+
+.passwordlogin {
+    background-color: rgba(229, 233, 241, 0);
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px solid rgb(156, 234,16);
+    margin-top: 10%;
+
+}
+
+.userid{
+    margin-left: 50px;
+    margin-right: 5px;
+    padding-left: 5px;
+    float: center;
+
+    height: 35px;
+    width: 300px;
+    border: solid 2pz #09c222;
+    border-radius: 10px;
+    justify-items: center;
+}
+
+
+.buttons{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.buttons button{
+    border-radius: 15px;
+    width: 130px;
+    height: 35px;
+}
+
+.buttons img{
+    width: 15px;
+    height: 15px;
+}
+
+.xd{
+    text-align: center;
+    color: rgb(241, 255, 176);
+}
+
+
+
+.return{
+    color: rgb(253, 253, 253);
+    text-align: center;
+}
+
+.component{
+    height: 35rem;
+}

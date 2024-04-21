@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4 de JavaScrip</title>
+    <script src="./Ejercicio 4/JS/validacion.js"></script>
+    <link rel="stylesheet" href="./Principal/CSS/style.css">
+    <link rel="icon" href="./Principal/img/icon.jpg">
+</head>
+<body>
+    <div class="cabecera"></div>
+    <header>
+        <h2>Ejercicios de JavaScrip</h2>
+    </header>
+    </div>
+    <div class="numform">
+    <aside>
+        <nav>
+        <ul>
+            <li>
+                <a href="./index1.html" style="color: aliceblue;"><h3>Formulario 1</h3></a>
+            </li>
+            <li>
+                <a href="./index2.html" style="color: aliceblue;"><h3>Formulario 2</h3></a>
+            </li>
+            <li>
+                <a href="./index3.html" style="color: aliceblue;"><h3>Formulario 3</h3></a>
+            </li>
+            <li>
+                <a href="./index4.html" style="color: aliceblue;"><h3>Formulario 4</h3></a>
+            </li>
+            <li>
+                <a href="./index5.html" style="color: aliceblue;"><h3>Formulario 5</h3></a>
+            </li>
+            <li>
+                <a href="./index6.html" style="color: aliceblue;"><h3>Formulario 6</h3></a>
+            </li>
+        </ul>
+        </nav>
+    </aside>
+    </div>
+    <div class="formulario">
+        <article>
+            <h2>Calificaciones de Algoritmos</h2>
+            <form id="calForm">
+                <div>
+                    <label for="p1">Calificación del Parcial I:</label>
+                    <input type="number" id="p1" min="0" max="10" required oninput="validarCalificacion(this)">
+                </div>
+                <div>
+                    <label for="p2">Calificación del Parcial II:</label>
+                    <input type="number" id="p2" min="0" max="10" required oninput="validarCalificacion(this)">
+                </div>
+                <div>
+                    <label for="p3">Calificación del Parcial III:</label>
+                    <input type="number" id="p3" min="0" max="10" required oninput="validarCalificacion(this)">
+                </div>
+                <div>
+                    <label for="ef">Calificación del Examen Final:</label>
+                    <input type="number" id="ef" min="0" max="10" required oninput="validarCalificacion(this)">
+                </div>
+                <div>
+                    <label for="tf">Calificación del Trabajo Final:</label>
+                    <input type="number" id="tf" min="0" max="10" required oninput="validarCalificacion(this)">
+                </div>
+                <button type="button" id="submitButton">Obtener la Calificación Final</button>
+            </form>
+            <div id="cf"></div>
+        </article>
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>

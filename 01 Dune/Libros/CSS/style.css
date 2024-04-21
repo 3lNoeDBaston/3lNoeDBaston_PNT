@@ -1,0 +1,124 @@
+
+body{
+    background-image: url(../Imagenes/dududud.jpg) ;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+}
+
+
+
+/*--------------------------------------------------*/
+.cabecera img{
+    margin-left: 5px;
+    height: 80px;
+}
+
+
+
+/*--------------------------------------------------*/
+table {
+    width: 320%;
+    height: 1px;
+  }
+
+
+
+
+/*--------------------------------------------------*/
+.cabecera, .subtemas, .pagcontenidos, .redes{
+    border: 2px solid #00000000;
+    margin: 1rem;
+    border-radius: 2rem;
+
+} 
+
+
+
+
+/*--------------------------------------------------*/
+.pagcontenidos, .subtemas{
+    display: inline-flex;
+    font-size: larger;
+    padding: 5px;
+}
+
+
+
+
+
+
+/*--------------------------------------------------*/
+.cabecera{
+    padding: 6px;
+    height: 5rem;
+    color: aliceblue;
+    width: 30%;
+}
+
+
+
+
+/*--------------------------------------------------*/
+.subtemas{
+    background-color:rgba(229, 233, 241, 0);
+    color: rgb(255, 255, 255);
+    width: 15%;
+    height: 35rem;
+}
+
+
+
+
+/*--------------------------------------------------*/
+.pagcontenidos{
+    background-color:rgba(229, 233, 241, 0.328);
+    color: #ffffff;
+    width: 78%;
+    height: 35rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+
+
+
+/*--------------------------------------------------*/
+.pagcontenidos h1{
+    text-align: center;
+}
+
+
+
+
+/*--------------------------------------------------*/
+.pagcontenidos img{
+    padding: 10px;
+    height: 43%;
+    width: 20%;
+    margin-left: 42%;
+}
+
+
+
+
+/*--------------------------------------------------*/
+.redes{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin-left: 250px;
+    width: 80%;
+}
+
+
+
+
+/*--------------------------------------------------*/
+.redes img{
+    border-radius: 10px;
+    background-color: rgba(225, 255, 255, 0.1);
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+

@@ -1,0 +1,15 @@
+body{
+    text-align: justify;
+    background: linear-gradient(70deg, hsl(120, 74%, 62%), rgb(29, 166, 245));
+    height: 2rem;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.aaa{
+    text-align: center;
+}
+
+.regreso{
+    text-align: center;
+}
